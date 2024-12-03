@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:laboratorydevsa.blob.core.windows.net:public",
+  "verificationMethod": [
+    {
+      "@context": "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/",
+      "id": "did:web:laboratorydevsa.blob.core.windows.net:public#X509-JWK2020",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:laboratorydevsa.blob.core.windows.net:public",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "uoe8XBsAOcvKCs3UZxD5ATylTqVhyybKUvsVAbe5KPUoHu0nsyQYOWcJDAjs4DqwO3cOvfPlOVRBDE6uQdaZdN5R2-97_1i9qLcT9t4x1fJyyXJqC4N0lZxGAGQUmfOx2SLZzaiSqhwmej_-71gFewiVgdtxD4774zEJuwm-UE1fj5F2PVqdnoPy6cRms-EGZkNIGIBloDcYmpuEMpexsr3E-BUAnSeI--JjF5ZsmydnS8TbKF5pwnnwSVzgJFDhxLyhBax7QG0AtMJBP6dYuC_FXJuluwme8f7rsIU5_agK70XEeOtlKsLPXzze41xNG_cLJyuqC0J3U095ah2H2Q",
+        "e": "AQAB",
+        "alg": "RS256",
+        "x5u": "https://laboratorydevsa.blob.core.windows.net/public/.well-known/fullchain.pem"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:laboratorydevsa.blob.core.windows.net:public#X509-JWK2020"
+  ]
+}
